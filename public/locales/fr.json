@@ -362,9 +362,7 @@
     "yes": "Oui"
   },
   "eventListCard": {
-    "location": "Emplacement",
-    "on": "Sur",
-    "end": "Fin",
+    "location": "Lieu de l'événement",
     "deleteEvent": "Supprimer l'événement",
     "deleteEventMsg": "Voulez-vous supprimer cet événement ?",
     "no": "Non",
@@ -372,6 +370,10 @@
     "editEvent": "Modifier l'événement",
     "eventTitle": "Titre",
     "description": "La description",
+    "startDate": "Date de début",
+    "endDate": "Date de fin",
+    "registerEvent": "Registre",
+    "alreadyRegistered": "Déjà enregistré",
     "startTime": "Heure de début",
     "endTime": "Heure de fin",
     "allDay": "Toute la journée",
@@ -386,7 +388,16 @@
     "talawaApiUnavailable": "Le service Talawa-API n'est pas disponible. Est-il en cours d'exécution ? Vérifiez également votre connectivité réseau.",
     "thisInstance": "Cette Instance",
     "thisAndFollowingInstances": "Cette et les Instances Suivantes",
-    "allInstances": "Toutes les Instances"
+    "allInstances": "Toutes les Instances",
+    "customRecurrence": "Récurrence personnalisée",
+    "repeatsEvery": "Se répète tous les",
+    "repeatsOn": "Se répète sur",
+    "ends": "Finit",
+    "never": "Jamais",
+    "on": "Sur",
+    "after": "Après",
+    "occurences": "Occurrences",
+    "done": "Fait"
   },
   "funds": {
     "title": "Fonds",
@@ -438,11 +449,14 @@
     "noCampaigns": "Pas de campagnes",
     "createCampaign": "Créer une campagne de fonds",
     "updateCampaign": "Mettre à jour la campagne de fonds",
+    "manageCampaign": "Gérer la campagne de fonds",
     "deleteCampaign": "Supprimer la campagne de fonds",
     "no": "Non",
     "yes": "Oui",
     "currency": "Devise",
-    "selectCurrency": "Sélectionnez la devise"
+    "selectCurrency": "Sélectionnez la devise",
+    "filter": "Filtre",
+    "searchFullName": "Rechercher par nom"
   },
   "pledges": {
     "title": "Engagements de campagne de financement",
@@ -960,7 +974,8 @@
     "view": "Voir",
     "edit": "Éditer",
     "editAdvertisement": "Éditer l'annonce",
-    "saveChanges": "Enregistrer les modifications"
+    "saveChanges": "Enregistrer les modifications",
+    "endOfResults": "Fin des résultats"
   },
   "userChat": {
     "chat": "Chat",

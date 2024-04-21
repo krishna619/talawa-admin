@@ -585,6 +585,16 @@ export const ORGANIZATION_EVENT_CONNECTION_LIST = gql`
       endTime
       allDay
       recurring
+      recurrenceRule {
+        recurrenceStartDate
+        recurrenceEndDate
+        frequency
+        weekDays
+        interval
+        count
+        weekDayOccurenceInMonth
+      }
+      isRecurringEventException
       isPublic
       isRegisterable
     }
@@ -782,7 +792,10 @@ export {
 } from './PlugInQueries';
 
 // display posts
-export { ORGANIZATION_POST_LIST } from './OrganizationQueries';
+export {
+  ORGANIZATION_POST_LIST,
+  ORGANIZATION_ADVERTISEMENT_LIST,
+} from './OrganizationQueries';
 
 export {
   ORGANIZATION_ADMINS_LIST,
